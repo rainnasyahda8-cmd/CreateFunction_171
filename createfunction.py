@@ -3,3 +3,5 @@ def ConvertsTemperature(value, unit):
         return (value *9/5) + 32
     elif unit.upper() == 'F':
         return (value - 32) * 5/9
+    else:
+        
